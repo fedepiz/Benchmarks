@@ -1,0 +1,13 @@
+s1580329
+Wed Aug 10 09:41:26 BST 2016
+Elapsed time = 345.890015
+Elapsed time = 324.178009
+Elapsed time = 357.105011
+Elapsed time = 300.283997
+Elapsed time = 384.752991
+Elapsed time = 385.983002
+Elapsed time = 378.247986
+Elapsed time = 373.967010
+Elapsed time = 353.937988
+Elapsed time = 372.808990
+Elapsed time = 383.915009

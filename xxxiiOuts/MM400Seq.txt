@@ -1,0 +1,26 @@
+s1580329
+Wed Aug 10 09:38:06 BST 2016
+Elapsed time = 655.658020
+Elapsed time = 803.440979
+Elapsed time = 639.330994
+Elapsed time = 323.536987
+Elapsed time = 516.570007
+Elapsed time = 324.442993
+Elapsed time = 324.552002
+Elapsed time = 454.697998
+Elapsed time = 456.752014
+Elapsed time = 335.733002
+Elapsed time = 427.934998
+s1580329
+Wed Aug 10 09:42:07 BST 2016
+Elapsed time = 655.025024
+Elapsed time = 450.595001
+Elapsed time = 312.746002
+Elapsed time = 313.378998
+Elapsed time = 314.285004
+Elapsed time = 313.567993
+Elapsed time = 313.145996
+Elapsed time = 313.580994
+Elapsed time = 442.709991
+Elapsed time = 322.829987
+Elapsed time = 324.229004
