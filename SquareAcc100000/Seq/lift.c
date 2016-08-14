@@ -74,6 +74,7 @@ gettimeofday(&startTime, NULL);
 liftKernel( p247, v__15, output);
 struct timeval endTime;gettimeofday(&endTime, NULL);
 float totalTime = ((endTime.tv_sec * 1e6 + endTime.tv_usec) - (startTime.tv_sec * 1e6 + startTime.tv_usec))/1000;
+printf("%f", output[0]);
 printf("\n");
 printf("Elapsed time = %f\n",totalTime);
 }
