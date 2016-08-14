@@ -5,7 +5,7 @@
 #include <malloc.h>
 #include <math.h>
 float square(float x){
-  return x*x;
+  return sqrt(((x * x)/52));;
 }
 float add(float x, float y){
   { return x+y; }
