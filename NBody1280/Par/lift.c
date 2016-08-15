@@ -88,7 +88,7 @@ void liftKernel(Tuple_float_float_float_float* v__12, Tuple_float_float_float_fl
   Tuple_float_float_float_float v__18;
   /* Private Memory */
   /* omp_map */
-  #pragma omp parallel for
+  #pragma omp parallel for private(v__18)
   for (int v_i_9 = 0;v_i_9<1280;v_i_9 = (1 + v_i_9)){
     Tuple_float_float_float_float v_tmp_35 = (Tuple_float_float_float_float) { 0.0f, 0.0f, 0.0f, 0.0f };
     v__18 = v_tmp_35;
@@ -126,43 +126,43 @@ char *readFile() {
     int main(int argc, char** argv) {
 int arrCount;
 char* inputData = strtok(readFile(),"@");
-//code for parameter p88
-Tuple_float_float_float_float *p88 = malloc(sizeof(Tuple_float_float_float_float) * 1280);
+//code for parameter p78
+Tuple_float_float_float_float *p78 = malloc(sizeof(Tuple_float_float_float_float) * 1280);
 //geerating array of type Tuple_float_float_float_float
 for(unsigned long i1 = 0; i1 < 1280; i1++){
 //reading tuple of t ype Tuple(float, float, float, float)
 {
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p88[(i1 * 1280/1280)]._0));
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p88[(i1 * 1280/1280)]._1));
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p88[(i1 * 1280/1280)]._2));
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p88[(i1 * 1280/1280)]._3));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p78[(i1 * 1280/1280)]._0));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p78[(i1 * 1280/1280)]._1));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p78[(i1 * 1280/1280)]._2));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p78[(i1 * 1280/1280)]._3));
 
 }
 }
-//code for parameter p243
-Tuple_float_float_float_float *p243 = malloc(sizeof(Tuple_float_float_float_float) * 1280);
+//code for parameter p101
+Tuple_float_float_float_float *p101 = malloc(sizeof(Tuple_float_float_float_float) * 1280);
 //geerating array of type Tuple_float_float_float_float
 for(unsigned long i3 = 0; i3 < 1280; i3++){
 //reading tuple of t ype Tuple(float, float, float, float)
 {
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p243[(i3 * 1280/1280)]._0));
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p243[(i3 * 1280/1280)]._1));
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p243[(i3 * 1280/1280)]._2));
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p243[(i3 * 1280/1280)]._3));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p101[(i3 * 1280/1280)]._0));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p101[(i3 * 1280/1280)]._1));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p101[(i3 * 1280/1280)]._2));
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p101[(i3 * 1280/1280)]._3));
 
 }
 }
-//code for parameter p78
-float p78;
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p78));
-//code for parameter p239
-float p239;
-inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p239));
+//code for parameter p132
+float p132;
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p132));
+//code for parameter p241
+float p241;
+inputData = strtok(NULL, "_"); sscanf(inputData,"%f",&(p241));
 //main invocation
 Tuple_Tuple_float_float_float_float_Tuple_float_float_float_float *output = malloc(sizeof(Tuple_Tuple_float_float_float_float_Tuple_float_float_float_float) * 1280 * 1);
 struct timeval startTime;
 gettimeofday(&startTime, NULL);
-liftKernel( p88, p243, p78, p239, output);
+liftKernel( p78, p101, p132, p241, output);
 struct timeval endTime;gettimeofday(&endTime, NULL);
 float totalTime = ((endTime.tv_sec * 1e6 + endTime.tv_usec) - (startTime.tv_sec * 1e6 + startTime.tv_usec))/1000;
 printf("\n");
