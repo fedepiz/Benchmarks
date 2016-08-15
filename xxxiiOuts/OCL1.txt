@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0mLoading project definition from /home/s1580329/prj/apart/project[0m
+[0m[[0minfo[0m] [0mSet current project to Apart (in build file:/home/s1580329/prj/apart/)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/s1580329/prj/apart/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mRunning openmp.executor.Benchmarks [0m
+[0m[[31merror[0m] [0m[======Device.cpp:121  000.571s  INFO] Using device `Intel(R) Xeon(R) CPU           L7555  @ 1.87GHz' with id: 0 from platform `Intel(R) OpenCL'[0m
+[0m[[31merror[0m] [0m[==DeviceList.cpp:156  000.571s  INFO] Using 1 OpenCL device(s) in total[0m
+[0m[[0minfo[0m] [0mBS1280 total = [F@5bc79255, runtime = 0.424579[0m
+[0m[[0minfo[0m] [0mBS12800 total = [F@578486a3, runtime = 0.715859[0m
+[0m[[0minfo[0m] [0mBS51200 total = [F@551aa95a, runtime = 1.181592[0m
+[0m[[0minfo[0m] [0mBS128000 total = [F@35d176f7, runtime = 1.928879[0m
+[0m[[0minfo[0m] [0mMM128 runtime = 33.812911[0m
+[0m[[0minfo[0m] [0mMM256 runtime = 165.226016[0m
+[0m[[0minfo[0m] [0mMM512 runtime = 1321.3603389999998[0m
+[0m[[0minfo[0m] [0mMM640 runtime = 1673.342843[0m
+[0m[[0minfo[0m] [0mMMCL 896 goes here...sigh :([0m
+[0m[[0minfo[0m] [0mNBody512 runtime = 47.804404[0m
+[0m[[0minfo[0m] [0mNBody1280 runtime = 106.701691[0m
+[0m[[0minfo[0m] [0mNBody5120 runtime = 51.091091999999996[0m
+[0m[[0minfo[0m] [0mNBody12800 runtime = 284.708975[0m
+[0m[[32msuccess[0m] [0mTotal time: 34 s, completed Aug 15, 2016 12:16:38 PM[0m

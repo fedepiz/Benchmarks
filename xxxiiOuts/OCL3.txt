@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mLoading project definition from /home/s1580329/prj/apart/project[0m
+[0m[[0minfo[0m] [0mSet current project to Apart (in build file:/home/s1580329/prj/apart/)[0m
+[0m[[0minfo[0m] [0mRunning openmp.executor.Benchmarks [0m
+[0m[[31merror[0m] [0m[======Device.cpp:121  000.419s  INFO] Using device `Intel(R) Xeon(R) CPU           L7555  @ 1.87GHz' with id: 0 from platform `Intel(R) OpenCL'[0m
+[0m[[31merror[0m] [0m[==DeviceList.cpp:156  000.420s  INFO] Using 1 OpenCL device(s) in total[0m
+[0m[[0minfo[0m] [0mBS1280 total = [F@5bc79255, runtime = 0.5368269999999999[0m
+[0m[[0minfo[0m] [0mBS12800 total = [F@578486a3, runtime = 0.759288[0m
+[0m[[0minfo[0m] [0mBS51200 total = [F@551aa95a, runtime = 1.7389379999999999[0m
+[0m[[0minfo[0m] [0mBS128000 total = [F@35d176f7, runtime = 2.9792069999999997[0m
+[0m[[0minfo[0m] [0mMM128 runtime = 33.889852[0m
+[0m[[0minfo[0m] [0mMM256 runtime = 268.93602799999996[0m
+[0m[[0minfo[0m] [0mMM512 runtime = 1091.325955[0m
+[0m[[0minfo[0m] [0mMM640 runtime = 2023.342727[0m
+[0m[[0minfo[0m] [0mMMCL 896 goes here...sigh :([0m
+[0m[[0minfo[0m] [0mNBody512 runtime = 20.647495[0m
+[0m[[0minfo[0m] [0mNBody1280 runtime = 71.772916[0m
+[0m[[0minfo[0m] [0mNBody5120 runtime = 39.354766[0m
+[0m[[0minfo[0m] [0mNBody12800 runtime = 622.970655[0m
+[0m[[32msuccess[0m] [0mTotal time: 28 s, completed Aug 15, 2016 12:18:36 PM[0m

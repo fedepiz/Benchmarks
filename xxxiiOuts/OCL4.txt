@@ -1,0 +1,40 @@
+[0m[[0minfo[0m] [0mLoading project definition from /home/s1580329/prj/apart/project[0m
+[0m[[0minfo[0m] [0mSet current project to Apart (in build file:/home/s1580329/prj/apart/)[0m
+[0m[[0minfo[0m] [0mRunning openmp.executor.Benchmarks [0m
+[0m[[31merror[0m] [0m[======Device.cpp:121  000.598s  INFO] Using device `Intel(R) Xeon(R) CPU           L7555  @ 1.87GHz' with id: 0 from platform `Intel(R) OpenCL'[0m
+[0m[[31merror[0m] [0m[==DeviceList.cpp:156  000.598s  INFO] Using 1 OpenCL device(s) in total[0m
+[0m[[0minfo[0m] [0mBS1280 total = [F@5bc79255, runtime = 0.577992[0m
+[0m[[0minfo[0m] [0mBS12800 total = [F@578486a3, runtime = 1.0294699999999999[0m
+[0m[[0minfo[0m] [0mBS51200 total = [F@551aa95a, runtime = 2.0476799999999997[0m
+[0m[[0minfo[0m] [0mBS128000 total = [F@35d176f7, runtime = 2.776261[0m
+[0m[[0minfo[0m] [0mMM128 runtime = 34.370768999999996[0m
+[0m[[0minfo[0m] [0mMM256 runtime = 158.15303[0m
+[0m[[0minfo[0m] [0mMM512 runtime = 1441.299973[0m
+[0m[[0minfo[0m] [0mMM640 runtime = 2041.6143399999999[0m
+[0m[[0minfo[0m] [0mMMCL 896 goes here...sigh :([0m
+[0m[[0minfo[0m] [0mNBody512 runtime = 36.026328[0m
+[0m[[0minfo[0m] [0mNBody1280 runtime = 73.74426[0m
+[0m[[0minfo[0m] [0mNBody5120 runtime = 51.154247[0m
+[0m[[0minfo[0m] [0m#[0m
+[0m[[0minfo[0m] [0m# A fatal error has been detected by the Java Runtime Environment:[0m
+[0m[[0minfo[0m] [0m#[0m
+[0m[[0minfo[0m] [0m#  SIGSEGV (0xb) at pc=0x00007f73ec0fa18c, pid=7959, tid=0x00007f73b7bfe700[0m
+[0m[[0minfo[0m] [0m#[0m
+[0m[[0minfo[0m] [0m# JRE version: Java(TM) SE Runtime Environment (8.0_102-b14) (build 1.8.0_102-b14)[0m
+[0m[[0minfo[0m] [0m# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.102-b14 mixed mode linux-amd64 compressed oops)[0m
+[0m[[0minfo[0m] [0m# Problematic frame:[0m
+[0m[[0minfo[0m] [0m# C  0x00007f73ec0fa18c[0m
+[0m[[0minfo[0m] [0m#[0m
+[0m[[0minfo[0m] [0m# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again[0m
+[0m[[0minfo[0m] [0m#[0m
+[0m[[0minfo[0m] [0m# An error report file with more information is saved as:[0m
+[0m[[0minfo[0m] [0m# /home/s1580329/prj/apart/hs_err_pid7959.log[0m
+[0m[[0minfo[0m] [0m#[0m
+[0m[[0minfo[0m] [0m# If you would like to submit a bug report, please visit:[0m
+[0m[[0minfo[0m] [0m#   http://bugreport.java.com/bugreport/crash.jsp[0m
+[0m[[0minfo[0m] [0m#[0m
+java.lang.RuntimeException: Nonzero exit code returned from runner: 134
+	at scala.sys.package$.error(package.scala:27)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:runMain[0m for the full output.[0m
+[0m[[31merror[0m] [0m(compile:[31mrunMain[0m) Nonzero exit code returned from runner: 134[0m
+[0m[[31merror[0m] [0mTotal time: 26 s, completed Aug 15, 2016 12:19:17 PM[0m
